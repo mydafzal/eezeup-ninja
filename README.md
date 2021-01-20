@@ -7,7 +7,7 @@ Eezeup is a Web based software that contains  a list of tasks you need to comple
 By signing in to the app, users will be able to create, view and manage tasks. They will also be able to organise tasks  in order of priority and can retrieve the tasks according to the filters of dates i.e. Today , Recent , Next 7 days tasks.
 Users can also create multiple projects at the same time and add different tasks in each project to manage the work flow more easily and effectively.
 ### Salient Features
-- The project will include the basic functionality of an online task management app. The features are listed as under:
+The project will include the basic functionality of an online task management app. The features are listed as under:
 - Quick add tasks.
 - Quick add feature to add instant tasks in any category assigned/made.
 - Add projects assigned to users.
