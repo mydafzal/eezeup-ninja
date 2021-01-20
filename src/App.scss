@@ -251,11 +251,12 @@ header {
   width: 266px;
   height: calc(100vh);
   padding-top: 74px;
-  position: fixed;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  //position: fixed;
+  //overflow-x: hidden;
+  //overflow-y: hidden;
   border-right: $generic-border;
   background-color: #fafafa;
+  margin-left: -208px;
 
   @include mq('900px') {
     display: none;
@@ -263,7 +264,7 @@ header {
 
   li {
     &:hover .sidebar__project-delete {
-      display: -webkit-box;
+     // display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
     }
@@ -418,11 +419,12 @@ header {
 .project-delete-modal {
   position: relative;
 
-  &__inner {
+  &__inner /*{
+    position: relative;
     @include box-overlay();
     z-index: 99;
-    width: 200px;
-    padding: 10px;
+    //width: 200px;
+    //padding: 10px;
     top: 10px;
     right: 0;
     background-color: white;
@@ -442,6 +444,26 @@ header {
       @include cancel();
       font-weight: normal;
     }
+  }*/
+  {
+    //position: relative;
+    border-radius: 50px();
+    @include box-overlay();
+    z-index: 99;
+    //width: 200px;
+    //padding: 10px;
+    top: 10px;
+    right: 0;
+    background-color: white;
+
+    button {
+      @include btn('50px');
+    }
+    span {
+      @include cancel();
+      font-weight: normal;
+    }
+
   }
 }
 
@@ -453,16 +475,16 @@ header {
       -ms-flex-align: center;
           align-items: center;
   grid-template-columns: 1fr auto;
-  max-width: 922px;
+  max-width: 900px;
   margin: auto;
 }
 
 /* Tasks
   ============================================ */
 .tasks {
-  width: 656px;
+  width: 950px;
   background-color: white;
-  margin-left: 266px;
+  //margin-left: 58px;
   border-right: $generic-border;
   min-height: calc(100vh);
   vertical-align: top;
@@ -472,7 +494,7 @@ header {
   padding-bottom: 84px;
 
   @include mq('900px') {
-    margin-left: 0;
+    margin-left: 58px;
     width: auto;
   }
 

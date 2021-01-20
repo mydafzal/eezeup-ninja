@@ -40,7 +40,7 @@ export const Sidebar = () => {
             <span>
               <FaInbox />
             </span>
-            <span>Inbox</span>
+            <span>Dashboard</span>
           </div>
         </li>
         <li
