@@ -1,70 +1,28 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Introduction
+### Purpose
+Eezeup is a Web based software that contains  a list of tasks you need to complete, or things that you want to do. It is organised in order of priority. And Act as a memory aid.This list shows the steps you need to take towards the completion of a project. It can be filled with details such as specific tasks, who's assigned to the task, and when it needs to be done.Organizing your tasks with a list can make everything much more manageable and make you feel grounded. Seeing a clear outline of your completed and uncompleted tasks will help you feel organized and stay mentally focused.
+### Scope
+By signing in to the app, users will be able to create, view and manage tasks. They will also be able to organise tasks  in order of priority and can retrieve the tasks according to the filters of dates i.e. Today , Recent , Next 7 days tasks.
+Users can also create multiple projects at the same time and add different tasks in each project to manage the work flow more easily and effectively.
+### References
+Project Repository: https://github.com/maidaNsiddique/eezeup-ninja
+Web URL: https://eezeup-ninja.netlify.app/
+### Salient Features
+- The project will include the basic functionality of an online task management app. The features are listed as under:
+- Quick add tasks.
+- Quick add feature to add instant tasks in any category assigned/made.
+- Add projects assigned to users.
+- Add tasks to the projects. 
+- Complete tasks.
+- Tasks are added for today, tomorrow and the next seven days.
+- Tasks can be added to a specific project.
+- Hide and Show Projects.
+- Show all the tasks for today.
+- Show all the tasks for the next seven days.
+- Show all the projects and their respective tasks.
+- Dark mode feature added.
+## Tools & Techniques
+Database: Firebase
+Programming Language: JavaScript, CSS, HTML
+Framework: ReactJs( Web based)
+Software: Visual Studio Code
